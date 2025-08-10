@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Ronaldo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/yo.jpg" type="image/png">
+</head>
+<body>
+    
+    <header class="main-header">
+        <h1 class="name">Ronaldo Ruiz Gonzalez</h1>
+    </header>
+
+    <nav class="main-nav">
+        <ul>
+            <li><a href="#about">Acerca de</a></li>
+            <li><a href="#projects">Detalles del proyecto</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#recommendations">Recomendaciones</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <img src="img/yo.jpg" alt="Foto de perfil" class="profile-pic">
+        <h2>Ronaldo Ruiz Gonzalezs</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure quis possimus quia dolorem tenetur expedita aspernatur at nemo tempora iste odit pariatur est fuga, maxime dicta eos perferendis saepe? A?</p>
+    </section>
+
+    <section id="skills">
+        <h2>Habilidades</h2>
+        <div class="skills-container">
+            <div class="skill-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="Logo de HTML">
+                <span>HTML5</span>
+            </div>
+            <div class="skill-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="Logo de CSS">
+                <span>CSS3</span>
+            </div>
+        </div>
+    </section>
+
+    <div class="project-card">
+        <h3>Nombre del Proyecto</h3>
+        <p>Descripción única del proyecto. Habla sobre lo que lograste.</p>
+        <a href="https://github.com/tu-proyecto" target="_blank">Ver en GitHub</a>
+    </div>
+
+    <div class="recommendation-card">
+        <p>"Trabajar con Ronaldo fue una experiencia fantástica. Su habilidad con HTML y CSS fue crucial para que nuestro proyecto de página de aterrizaje se viera profesional y responsive. Lo recomiendo encarecidamente para cualquier equipo."</p>
+        <cite>- Ana García, Jefa de Proyecto</cite>
+    </div>
+
+    <section id="add-recommendation">
+        <h2>Añadir Recomendación</h2>
+        <form id="recommendation-form">
+            <textarea id="rec-text" placeholder="Escribe tu recomendación aquí..."></textarea>
+            <button type="submit">Enviar Recomendación</button>
+        </form>
+        <div id="confirmation-message" style="display:none;">¡Recomendación enviada con éxito!</div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
